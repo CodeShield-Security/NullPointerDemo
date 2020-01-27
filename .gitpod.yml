@@ -1,0 +1,9 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: mvn compile
+
+vscode:
+  extensions:
+    - MS-SarifVSCode.sarif-viewer@2.15.0:GjrdrKpKs4JV742TwfhDag==
